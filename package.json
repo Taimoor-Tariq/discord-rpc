@@ -1,0 +1,31 @@
+{
+    "name": "@Taimoor-Tariq/discord-rpc",
+    "version": "0.0.1",
+    "description": "Discord RPC",
+    "main": "dist/index.js",
+    "license": "MIT",
+    "scripts": {
+        "publish": "npm publish",
+        "prettier": "prettier -w \"**/*.{js,json}\""
+    },
+    "repository": {
+        "url": "git://github.com/Taimoor-Tariq/discord-rpc.git"
+    },
+    "bugs": {
+        "url": "https://github.com/Taimoor-Tariq/discord-rpc/issues"
+    },
+    "homepage": "https://github.com/Taimoor-Tariq/discord-rpc",
+    "files": [
+        "dist/**/*"
+    ],
+    "publishConfig": {
+        "registry": "https://npm.pkg.github.com"
+    },
+    "dependencies": {
+        "node-fetch": "^2.6.1",
+        "ws": "^7.3.1"
+    },
+    "devDependencies": {
+        "prettier": "^2.6.2"
+    }
+}
